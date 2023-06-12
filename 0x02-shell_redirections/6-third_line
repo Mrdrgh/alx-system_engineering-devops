@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(head -qn 3 /etc/passwd |tail -n 3)"
+head -qn 3 /etc/passwd |tail -n 1 

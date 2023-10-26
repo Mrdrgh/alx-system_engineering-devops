@@ -1,1 +1,1 @@
-# LOOPS IN SHELL 
+Shellcheck Project

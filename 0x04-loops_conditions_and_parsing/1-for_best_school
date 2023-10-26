@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# displays 10 best school messages
+
+for (( i=0; i<10; i++))
+do
+	echo "Best School"
+done

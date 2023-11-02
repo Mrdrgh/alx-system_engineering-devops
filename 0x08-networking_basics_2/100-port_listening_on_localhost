@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# a script to listen on yourself(localhost)  and call it networking
+
+nc -l localhost 98

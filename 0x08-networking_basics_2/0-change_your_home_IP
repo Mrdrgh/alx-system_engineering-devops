@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# a script to make the url localhost  resolving to 127.0.0.2
+# as well as making facebook.com resoving to the google dns server ip
+
+cp /etc/hosts ~/hosts.new
+echo "127.0.0.2		localhost"
+echo "8.8.8.8		facebook.com"
+cp -f ~/hosts.new /etc/hosts

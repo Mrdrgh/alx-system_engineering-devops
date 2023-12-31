@@ -1,0 +1,3 @@
+#!/bin/bash
+#connects to a server using a private key on the folder with ssh
+ssh -i ~/.ssh/id_rsa.pub ubuntu@54.236.46.240

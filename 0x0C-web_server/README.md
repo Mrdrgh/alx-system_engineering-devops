@@ -1,1 +1,1 @@
-#how to manage the server side
+#how to manage the server sidee
